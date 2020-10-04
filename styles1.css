@@ -1,0 +1,270 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.fa-star {
+  color: yellow;
+}
+
+.first {
+  margin: 10px;
+}
+.para {
+  margin: 20px;
+  /* border: 1px solid red; */
+  align-items: center;
+}
+.para h1 {
+  font-size: 50px;
+  color: rgb(95, 3, 156);
+  text-align: center;
+}
+.para h3 {
+  font-size: 25px;
+  color: rgb(184, 178, 190);
+  text-align: justify; /* For Edge */
+  /* -moz-text-align-last: center; For Firefox prior 58.0 */
+  text-align-last: center;
+  word-spacing: 4.5px;
+}
+.reviews {
+  margin: 10px;
+}
+.review {
+  padding-top: 10px;
+  height: 100px;
+  margin: 25px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background: #b6c1df;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 900;
+  color: rgb(65, 6, 121);
+}
+
+.stars {
+  margin-top: 13px;
+}
+
+/* post-section */
+.comments {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.comment {
+  width: 350px;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 10px 0px;
+  background: #5b3758;
+}
+/* .img-name {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: 20px 90px 5px 30px;
+  border: 1px solid red;
+  width: auto;
+  height: auto;
+  padding: 1%;
+}
+.img {
+  margin: 0 2%;
+  float: left;
+  height: 40px;
+  width: 40px;
+}
+.name {
+  float: left;
+}
+.name h3 {
+  float: left;
+  width: 100%;
+  font-size: 1rem;
+} */
+
+.iconDetails {
+  margin: 0 5%;
+  float: left;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+.container {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+  margin: 10px;
+}
+.text {
+  float: left;
+}
+.text h4,
+.text p {
+  width: 100%;
+  float: left;
+  font-size: 20px;
+  color: white;
+}
+.text p {
+  opacity: 1;
+  color: rgba(255, 255, 255, 0.479);
+}
+
+.post {
+  display: inline-block;
+  margin: 0 5%;
+  word-wrap: break-word;
+  margin: 20px;
+  color: white;
+  line-height: 25px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 380px) {
+  .first {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 80px 80px 80px;
+    /* border: 1px solid red; */
+  }
+  .para {
+    max-width: 400px;
+    /* border: 1px solid red; */
+    text-align: left;
+  }
+  .para h1 {
+    text-align: left;
+    word-spacing: 2px;
+    margin: 10px 0px;
+    line-height: 40px;
+  }
+  .para h3 {
+    font-size: 20px;
+    word-spacing: 1px;
+    text-align-last: left;
+  }
+  .reviews {
+    max-height: 200px;
+  }
+  .fa-star {
+    font-size: 15px;
+  }
+  .review p {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .review {
+    height: 30px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  .stars {
+    /* border: 1px solid red; */
+    margin-bottom: 26px;
+  }
+  .reviews {
+    position: relative;
+  }
+  .review1 {
+    position: relative;
+    right: 80px;
+  }
+  .review2 {
+    position: relative;
+    right: 40px;
+  }
+  .review3 {
+    position: relative;
+    left: 10px;
+  }
+  .comments {
+    display: flex;
+    flex-direction: row;
+  }
+  .comment {
+    width: 365px;
+    margin: 15px;
+    padding: 10px 0px;
+  }
+  .comment1 {
+    position: relative;
+    bottom: 30px;
+  }
+  .comment3 {
+    position: relative;
+    top: 30px;
+  }
+}
+@media (min-width: 500px) and (max-width: 520px) {
+  .first {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .para h1 {
+    text-align: center;
+  }
+  .para h3 {
+    font-size: 20px;
+    color: rgb(184, 178, 190);
+    text-align-last: center;
+    word-spacing: 1px;
+    /* border: 1px solid red; */
+    width: 365px;
+    position: relative;
+    right: 37px;
+  }
+  .reviews {
+    margin: 10px;
+  }
+  .review {
+    padding-top: 10px;
+    height: 30px;
+    width: 370px;
+    margin: 25px;
+    background: #b6c1df;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 22px;
+    font-weight: 900;
+    color: rgb(65, 6, 121);
+  }
+  .review1 {
+    position: relative;
+    right: 55px;
+  }
+  .review2 {
+    position: relative;
+    right: 55px;
+  }
+  .review3 {
+    position: relative;
+    left: -55px;
+  }
+  .comments {
+    display: flex;
+    flex-direction: column;
+  }
+}
